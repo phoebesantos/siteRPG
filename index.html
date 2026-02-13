@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mundo do RPG</title>
+  <script src="site.js"></script>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="overlay">
+    <header>
+      <h1>Mundo do RPG</h1>
+      <nav>
+        <ul>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#tipos">Tipos</a></li>
+          <li><a href="#dica">Dicas</a></li>
+          <li><a href="#dados">Rolar Dados</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="sobre" class="card">
+        <h2>O que é RPG?</h2>
+        <p>RPG (Role-Playing Game) é um jogo onde você assume o papel de um personagem em um mundo fictício, criando histórias épicas em conjunto com outros jogadores.</p>
+      </section>
+
+      <section id="tipos" class="card">
+        <h2>Tipos de RPG</h2>
+        <ul>
+          <li><strong>🧙 RPG de Mesa:</strong> com papel, caneta e dados.</li>
+          <li><strong>🌐 RPG Online:</strong> via plataformas como Roll20.</li>
+          <li><strong>🎮 RPG Digital:</strong> videogames e jogos eletrônicos.</li>
+          <li><strong>🎭 LARP:</strong> interpretação ao vivo.</li>
+        </ul>
+      </section>
+
+      <section id="dica" class="card">
+        <h2>Dica Aleatória</h2>
+        <button onclick="mostrarDica()">⚔️ Ver Dica</button>
+        <p id="dicaTexto"></p>
+      </section>
+
+      <section id="dados" class="card">
+        <h2>Rolar Dados</h2>
+        <button onclick="rolarDado()">🎲 Rolar D20</button>
+        <p id="resultadoDado"></p>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 Mundo do RPG. Viva grandes aventuras!</p>
+    </footer>
+  </div>
+
+
+</body>
+</html>
